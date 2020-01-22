@@ -8,7 +8,7 @@ interface Props {
 }
 
 const Text: React.FC<Props> = ({ children }) => (
-  <span>{children}</span>
+  <span>text: {children}</span>
 )
 
 export default Text

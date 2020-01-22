@@ -1,7 +1,8 @@
 import React from 'react'
+import Text from 'design-system/src/components/text'
 
 const Page: React.FC = () => (
-  <h1>Welcome</h1>
+  <Text>Welcome</Text>
 )
 
 export default Page
