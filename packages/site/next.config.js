@@ -1,7 +1,7 @@
 const tm = require('next-transpile-modules')
 
 const withTM = tm([
-  'design-system'
+  '@cssinjs/design-system'
 ])
 
 module.exports = withTM()

@@ -1,5 +1,5 @@
 import React from 'react'
-import Text from 'design-system/src/components/text'
+import Text from '@cssinjs/design-system/src/components/text'
 
 const Page: React.FC = () => (
   <Text>Welcome</Text>

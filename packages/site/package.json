@@ -1,5 +1,5 @@
 {
-  "name": "css-in-js-exploration",
+  "name": "@cssinjs/site",
   "version": "1.0.0",
   "private": true,
   "description": "",
@@ -14,8 +14,8 @@
   "author": "Ash",
   "license": "ISC",
   "dependencies": {
+    "@cssinjs/design-system": "^1.0.0",
     "@emotion/core": "^10.0.27",
-    "design-system": "^1.0.0",
     "dotenv": "^8.2.0",
     "next": "^9.2.0",
     "next-transpile-modules": "^3.0.1",
