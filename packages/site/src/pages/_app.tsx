@@ -1,5 +1,5 @@
 import React from 'react'
-import { ThemeProvider } from 'theme-ui'
+import { ThemeProvider } from 'styled-components'
 import theme from '@cssinjs/design-system/src/theme'
 
 interface Props {
