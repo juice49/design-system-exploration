@@ -1,27 +1,12 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui'
-import React from 'react'
+import styled from 'styled-components'
+import { SpaceProps, ColorProps, color, space } from 'styled-system'
 
-interface Props {
-  /**
-   * The text.
-   */
-  children: React.ReactNode,
-  className?: string,
-  sx?: any
-}
+interface Props extends SpaceProps, ColorProps {}
 
-const Text: React.FC<Props> = ({ children, className, sx }) => (
-  <span
-    className={className}
-    sx={{
-      ...sx,
-      display: 'inline-block',
-      bg: 'yellow'
-    }}
-  >
-    {children}
-  </span>
-)
+const Text = styled.span<Props>`
+  display: inline-block;
+  ${space}
+  ${color}
+`
 
 export default Text
