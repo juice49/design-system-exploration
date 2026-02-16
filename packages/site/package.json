@@ -16,7 +16,7 @@
   "dependencies": {
     "@cssinjs/design-system": "^1.0.0",
     "dotenv": "^8.2.0",
-    "next": "^9.2.0",
+    "next": "^14.2.32",
     "next-transpile-modules": "^3.0.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
